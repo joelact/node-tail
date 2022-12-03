@@ -5,7 +5,7 @@ Simple implementation of tail command. Only option available for now is reading 
 ### Example
 
 ````javascript
-const Tail = require('node-tail');
+const Tail = require('@joelact/node-tail');
 
 const tail = new Tail('/tmp/file.log', { encoding: 'utf8' });
 const lines = await tail.readLines(10);
