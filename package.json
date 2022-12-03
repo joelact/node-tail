@@ -1,5 +1,5 @@
 {
-  "name": "node-tail",
+  "name": "@joelact/node-tail",
   "version": "0.0.1",
   "description": "Node.js implementation of linux tail command",
   "main": "index.js",
@@ -14,8 +14,17 @@
   "engines": {
     "node": ">=16"
   },
+  "repository": {
+    "url": "git+https://github.com/joelact/node-tail.git",
+    "type": "git"
+  },
   "devDependencies": {
     "jest": "29.3.1",
     "prettier": "2.8.0"
-  }
+  },
+  "types": "./index.d.ts",
+  "bugs": {
+    "url": "https://github.com/joelact/node-tail/issues"
+  },
+  "homepage": "https://github.com/joelact/node-tail#readme"
 }
